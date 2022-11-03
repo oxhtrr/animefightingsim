@@ -1,9 +1,7 @@
-getgenv().farmer = true;
+local cps = 5 -- Clicks per second here
+getgenv().clicker = true
 
-while wait() do
-    if getgenv().farmer == true then
-   mouse1press()
-   hb:Wait()
-   mouse1release()
-   end
+while clicker do
+     mouse1click()
+     wait(1/cps)
 end
