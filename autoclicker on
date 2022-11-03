@@ -1,0 +1,9 @@
+getgenv().farmer = true;
+
+while wait() do
+    if getgenv().farmer == true then
+   mouse1press()
+   hb:Wait()
+   mouse1release()
+   end
+end
